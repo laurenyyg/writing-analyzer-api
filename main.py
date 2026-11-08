@@ -15,7 +15,7 @@ from analyzer import analyze
 
 MAX_WORDS = 2000
 ALLOWED_ORIGINS = os.environ.get(
-    "ALLOWED_ORIGINS", "https://laurengyu.github.io"
+    "ALLOWED_ORIGINS", "https://laureny.org"
 ).split(",")
 
 log = logging.getLogger("analyzer")
